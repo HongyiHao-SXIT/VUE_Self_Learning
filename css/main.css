@@ -1,12 +1,51 @@
-h1{
-    text-align: center;
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 38px;
-    font-weight: 400
-}
-p{
-    text-align: right;
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 200
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+  }
+.header {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 20px;
+  }
+.name {
+      font-size: 36px;
+      margin-bottom: 10px;
+  }
+.contact-links a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+  }
+.contact-links a:hover {
+      text-decoration: underline;
+  }
+.main-content {
+      display: flex;
+      margin: 20px;
+  }
+.left-section {
+      width: 30%;
+      margin-right: 20px;
+  }
+.right-section {
+      width: 70%;
+  }
+h2 {
+      color: #007BFF;
+      margin-top: 30px;
+  }
+ul {
+      list-style-type: none;
+      padding: 0;
+  }
+li {
+      margin-bottom: 10px;
+  }
+body {
+      font-family: Arial, sans-serif;
+  }
+.contact-links a:hover {
+      text-decoration: underline;
 }
