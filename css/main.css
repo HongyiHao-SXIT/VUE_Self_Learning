@@ -1,51 +1,62 @@
-body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-  }
-.header {
-      background-color: #007BFF;
-      color: white;
-      text-align: center;
-      padding: 20px;
-  }
-.name {
-      font-size: 36px;
-      margin-bottom: 10px;
-  }
-.contact-links a {
-      color: white;
+a {
+      color: #1772d0;
       text-decoration: none;
-      margin: 0 10px;
-  }
-.contact-links a:hover {
-      text-decoration: underline;
-  }
-.main-content {
-      display: flex;
-      margin: 20px;
-  }
-.left-section {
-      width: 30%;
-      margin-right: 20px;
-  }
-.right-section {
-      width: 70%;
-  }
-h2 {
-      color: #007BFF;
-      margin-top: 30px;
-  }
-ul {
-      list-style-type: none;
-      padding: 0;
-  }
-li {
-      margin-bottom: 10px;
-  }
-body {
-      font-family: Arial, sans-serif;
-  }
-.contact-links a:hover {
-      text-decoration: underline;
-}
+    }
+
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
+
+    body,
+    td,
+    th {
+      font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 400
+    }
+
+    heading {
+      font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+      font-size: 17px;
+      /* 19 */
+      font-weight: 600
+      /* 1000 */
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+
+    strong {
+      font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 600
+      /* 800 */
+    }
+
+    strongred {
+      font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+      color: 'red';
+      font-size: 16px
+    }
+
+    sectionheading {
+      font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+      font-size: 22px;
+      font-weight: 600
+    }
+
+    pageheading {
+      font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+      font-size: 38px;
+      font-weight: 400
+    }
+
+    .ImageBorder {
+      border-width: 1px;
+      border-color: Black;
+    }
